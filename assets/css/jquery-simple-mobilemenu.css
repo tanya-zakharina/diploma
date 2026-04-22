@@ -25,7 +25,7 @@ body.mmactive {
   z-index: -9;
   width: 100%;
   opacity: 0;
-  background-color: #000000;
+  background-color: #E2FFDF;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -39,16 +39,15 @@ body.mmactive {
   background: url("../img/back.png") no-repeat scroll 15px center / 2% auto;
 }
 .sm_menu_outer .mobile_menu a {
-	color: #ffffff;
+	color: black;
 	display: block;
 	padding: 15px 50px;
-	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 14px;
 }
 /*Sub Menu anim */
 .sm_menu_outer.slide .mobile_menu .sub-menu {
-  background-color: #000000;
+  background-color: #E2FFDF;
   height: 100%;
   position: absolute;
   right: -100%;
@@ -64,7 +63,7 @@ body.mmactive {
   list-style-type: none;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0);
   border-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #2a2a2a 20%, #2a2a2a 50%, #2a2a2a 80%, rgba(0, 0, 0, 0) 100%) 0 0 1 0;
-  color: #ffffff;
+  color: black;
 }
 .sm_menu_outer.slide .mobile_menu li.hasChild>a {
   background: url("../img/next.png") no-repeat scroll 95% center / 2% auto;
@@ -90,7 +89,7 @@ body.mmactive {
   display: none;
 }
 #sm_menu_ham span {
-  background-color: #525fe1;
+  background-color: #1A489E;
   border-radius: 5px;
   display: block;
   height: 2px;
@@ -107,7 +106,7 @@ body.mmactive {
   width: 30px;
 }
 #sm_menu_ham.open span{
-	background-color: #525fe1;
+	background-color: #1A489E;
 }
 #sm_menu_ham span:nth-child(1) {
   top: 0;
