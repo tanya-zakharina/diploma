@@ -1,3 +1,9 @@
+/** 
+{
+    outline: 1px solid red;
+}
+*/
+
 /* STYLE SCTRUCTURE:
 
 	1. NAVIGATION
@@ -19,7 +25,6 @@
 
 body {
 	background: #fff;
-	overflow-x: hidden;
     background-color: #fff;
     background-image: repeating-linear-gradient(
         0deg,
@@ -493,11 +498,14 @@ top: 40px;
 * ----------------------------------------------------------------------------------------
 */
 .stickers{padding: 0px 0 150px;}
+
 .stickers .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .stickers .col-lg-3 {
     flex: 0 0 auto;
@@ -513,6 +521,7 @@ top: 40px;
 	min-width:300px;
 	max-width:300px;
 	transition: transform 0.5s cubic-bezier(0.34, 1.2, 0.64, 1);
+    
 }
 
 .single_sticker span {
