@@ -107,6 +107,36 @@ function copyPhone(event) {
     alert("Номер скопирован: " + phone);
 }
 
-
-  
+/*START FILTER SUBJECT*/
+document.querySelectorAll('.filter-item').forEach(item => {
+				item.addEventListener('click', function() {
+					document.querySelectorAll('.filter-item').forEach(btn => btn.classList.remove('active'));
+					this.classList.add('active');
+					
+					let filter = this.getAttribute('data-filter');
+					let games = document.querySelectorAll('.game-item');
+					
+					games.forEach(game => {
+						game.classList.add('hide');
+						game.classList.remove('show');
+					});
+					
+					setTimeout(() => {
+						games.forEach(game => {
+							if (filter === 'russian' && game.classList.contains('russian')) {
+								game.classList.remove('hide');
+								game.classList.add('show');
+								game.style.display = 'block';
+							} else if (filter === 'literature' && game.classList.contains('literature')) {
+								game.classList.remove('hide');
+								game.classList.add('show');
+								game.style.display = 'block';
+							} else {
+								game.style.display = 'none';
+							}
+						});
+					}, 150);
+				});
+			});
+  /*END FILTER SUBJECT*/
 
