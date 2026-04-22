@@ -100,7 +100,12 @@ Version      : 1.0
 				
 })(jQuery);
 
-
+function copyPhone(event) {
+    event.preventDefault();
+    var phone = "+7 961 237 08 85";
+    navigator.clipboard.writeText(phone);
+    alert("Номер скопирован: " + phone);
+}
 
 
   

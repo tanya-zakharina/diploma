@@ -1,3 +1,15 @@
+/* STYLE SCTRUCTURE:
+
+	1. NAVIGATION
+	2. HOME DESIGN
+	3. ADVANTAGES
+	4. HOW IT WORKS
+	5. GAME CARDS
+	6. REVIEWS
+	7. PLAY NOW
+	8. FOOTER
+*/
+
 @font-face {
     font-family: 'Vasek Italic_0';
     src: url('../fonts/Vasek Italic_0.ttf') format('truetype');
@@ -160,7 +172,7 @@ margin-top: 0px;
 
 /*
 * ----------------------------------------------------------------------------------------
-* 02.START NAVIGATION
+* START NAVIGATION
 * ----------------------------------------------------------------------------------------
 */
 .col-20{
@@ -195,7 +207,7 @@ margin-top: 0px;
     background: #fff;
     border: 1.5px solid #a8c5e8;
     border-radius: 50px;
-    padding: 8px 0px;
+    padding: 5px 0px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
     display: flex;
     justify-content: flex-end;
@@ -277,6 +289,7 @@ margin-top: 0px;
 	visibility: hidden;
 	width: 210px;
 	z-index: 999;
+	background: white;
 	border: 1px solid #1A489E;
 }
 #navigation #main-menu .menu-item-has-children {
@@ -357,40 +370,18 @@ width: 100%;
 top: 40px;
 }
 }
-.header-btn{
-	display: inline-block;
-	font-weight: 600;
-	font-size: 18px;
-	color: #0b104a;
-	transition: .5s;	
-}
-.header-btn:hover,
-.header-btn:focus{
-	color: #1A489E;
-}
-#navigation .col-20 .btn_one {
-    display: inline-block !important;
-}
-
-#navigation .d-none {
-    display: block !important;
-}
-
-#navigation .btn_one {
-    white-space: nowrap;
-}
 /*
 * ----------------------------------------------------------------------------------------
-* 02.END NAVIGATION
+* END NAVIGATION
 * ----------------------------------------------------------------------------------------
 */
 
 /*
-/*
 * ----------------------------------------------------------------------------------------
-* 03.START HOME DESIGN
+* START HOME DESIGN
 * ----------------------------------------------------------------------------------------
 */
+
 .home_bg {
     height: 850px;
     position: relative;
@@ -456,116 +447,15 @@ top: 40px;
     padding: 15px 35px;
 }
 
-/* 1024px */
-@media only screen and (max-width: 1024px){
-    .hero-text h1 {
-        font-size: 28px;
-    }
-    .hero-text h1 span {
-        font-size: 70px;
-    }
-    .hero-text p {
-        font-size: 20px;
-        width: 85%;
-    }
-    .hero-text h1 span::before {
-        width: 450px;
-        height: 450px;
-    }
-}
-
-/* 960px */
-@media only screen and (max-width: 960px){
-    .hero-text h1 {
-        line-height: 74px;
-    }
-}
-
-/* 768px */
-@media only screen and (max-width: 768px){
-    .hero-text h1 {
-        font-size: 24px;
-        line-height: 1.4;
-    }
-    .hero-text h1 span {
-        font-size: 70px;
-    }
-    .hero-text p {
-        font-size: 18px;
-        width: 90%;
-    }
-    .hero-text h1 span::before {
-        width: 450px;
-        height: 450px;
-    }
-}
-
-@media only screen and (max-width: 425px){
-    .hero-text h1 {
-        font-size: 18px;
-        line-height: 44px;
-    }
-    .hero-text h1 span {
-        font-size: 48px;
-    }
-    .hero-text p {
-        font-size: 14px;
-        width: 95%;
-    }
-	.hero-text h1 span::before {
-        width: 300px;
-        height: 300px;
-    }
-	.home_bg .btn_one {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
-}
-
-/* 375px */
-@media only screen and (max-width: 375px){
-    .hero-text h1 {
-        font-size: 15px;
-    }
-    .hero-text h1 span {
-        font-size: 48px;
-    }
-    .hero-text p {
-        font-size: 12px;
-    }
-    .hero-text h1 span::before {
-        width: 300px;
-        height: 300px;
-    }
-	.home_bg .btn_one {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
-}
-
-/* 320px */
-@media only screen and (max-width: 320px){
-    .hero-text h1 {
-        font-size: 12px;
-    }
-    .hero-text h1 span {
-        font-size: 40px;
-    }
-    .hero-text p {
-        font-size: 11px;
-    }
-    .hero-text h1 span::before {
-        width: 280px;
-        height: 280px;
-    }
-    .home_bg .btn_one {
-        font-size: 12px;
-        padding: 6px 12px;
-    }
-}
 /*
 * ----------------------------------------------------------------------------------------
-* 03. ADVANTAGES
+* END HOME DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* START ADVANTAGES
 * ----------------------------------------------------------------------------------------
 */
 .tp_feature_p3{padding-bottom:50px;}
@@ -745,6 +635,17 @@ font-family: "Inter", sans-serif;
     margin-top: 40px;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* END ADVANTAGES
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* START HOW IT WORKS
+* ----------------------------------------------------------------------------------------
+*/
 .howitworks {
     margin-bottom: 150px;
 }
@@ -849,6 +750,18 @@ font-family: "Inter", sans-serif;
 }
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* END HOW IT WORKS
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* START GAMES CARDS
+* ----------------------------------------------------------------------------------------
+*/
+
 .games-cards {
 	border: 1px solid #ddd;
 	padding: 10px;
@@ -890,6 +803,18 @@ color: #1a2d62;
 font-family:"Inria Sans", sans-serif;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* END GAME CARDS
+* ----------------------------------------------------------------------------------------
+*/
+
+
+/*
+* ----------------------------------------------------------------------------------------
+* START REVIEWS
+* ----------------------------------------------------------------------------------------
+*/
 
 .fa-star {
     width: 30px;
@@ -901,32 +826,37 @@ font-family:"Inria Sans", sans-serif;
     margin-right: 5px;
 	font-size: 0 !important;
 }
+.fa-star:nth-child(1) {background-image: url('../img/star1.svg');}
+.fa-star:nth-child(2) {background-image: url('../img/star2.svg');}
+.fa-star:nth-child(3) {background-image: url('../img/star3.svg');}
+.fa-star:nth-child(4) {background-image: url('../img/star4.svg');}
+.fa-star:nth-child(5) {background-image: url('../img/star5.svg');}
 
-/* 1-я звезда */
-.fa-star:nth-child(1) {
-    background-image: url('../img/star1.svg');
-}
+/*
+* ----------------------------------------------------------------------------------------
+* END REVIEWS
+* ----------------------------------------------------------------------------------------
+*/
 
-/* 2-я звезда */
-.fa-star:nth-child(2) {
-    background-image: url('../img/star2.svg');
-}
+/*
+* ----------------------------------------------------------------------------------------
+* START PLAY NOW
+* ----------------------------------------------------------------------------------------
+*/
 
-/* 3-я звезда */
-.fa-star:nth-child(3) {
-    background-image: url('../img/star3.svg');
-}
 
-/* 4-я звезда */
-.fa-star:nth-child(4) {
-    background-image: url('../img/star4.svg');
-}
 
-/* 5-я звезда */
-.fa-star:nth-child(5) {
-    background-image: url('../img/star5.svg');
-}
+/*
+* ----------------------------------------------------------------------------------------
+* END PLAY NOW
+* ----------------------------------------------------------------------------------------
+*/
 
+/*
+* ----------------------------------------------------------------------------------------
+* START FOOTER
+* ----------------------------------------------------------------------------------------
+*/
 
 .footer {
 	width: 100%;
@@ -1029,3 +959,9 @@ font-family: Inter, sans-serif;
 .footer .btn_two:hover{
 	color:#1A489E;
 }
+
+/*
+* ----------------------------------------------------------------------------------------
+* END FOOTER
+* ----------------------------------------------------------------------------------------
+*/
