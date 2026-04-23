@@ -338,21 +338,6 @@ modal.querySelector('#submit-review').addEventListener('click', function() {
     });
 });
 
-
-// Загрузка навигации и футера
-    fetch('components/navigation.html')
-        .then(response => response.text())
-        .then(data => {
-            document.body.insertAdjacentHTML('afterbegin', data);
-        });
-    
-    fetch('components/footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.body.insertAdjacentHTML('beforeend', data);
-        });
-
-
   document.addEventListener('DOMContentLoaded', function() {
     const studentImages = ['assets/img/student1.svg', 'assets/img/student2.svg'];
     const teacherImages = ['assets/img/teacher1.svg', 'assets/img/teacher2.svg'];
