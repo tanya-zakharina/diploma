@@ -54,7 +54,7 @@
 					<div class="col-60 d-flex">
 						<nav id="main-menu">
 							<ul>
-								<li class="menu-item-has-children"><a href="games.html">Игры</a>
+								<li class="menu-item-has-children"><a href="games_russian.html">Игры</a>
 									<ul>										
 										<li><a href="games_russian.html">Русский язык</a></li>
 										<li><a href="games_literature.html">Литература</a></li>			
@@ -74,7 +74,7 @@
 					</div><!--- END Col -->
 					
 					<div class="col-20 d-none d-xl-block text-end align-self-center">
-						<a href="games.html" class="btn_one">Начать играть</a>
+						<a href="games_russian.html" class="btn_one">Начать играть</a>
 					</div><!--- END Col -->
 					
 					<ul class="mobile_menu">						
@@ -121,11 +121,8 @@
             </div>
         </section>
 
-<section class="reviews section-padding" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center;">
-		<div class="container stickers">	
-			<div class="section-title text-center">
-					<h2>Нас рекомендуют</h2>
-				</div>															
+<section class="reviews section-padding home-reviews load-more-block text-truncate-block" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center;">
+		<div class="container stickers">															
 			<div class="row">					
 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 					<div class="single_sticker">
@@ -154,19 +151,19 @@
                 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 					<div class="single_sticker">
 						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-						<p>Класс</p>
+						<p>ОФИГЕТЬ</p>
 					</div>
 				</div><!-- END COL -->			
 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
 					<div class="single_sticker">
 						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-						<p>Ничего круче не видел</p>
+						<p>+ вайб</p>
 					</div>
 				</div><!-- END COL -->			
 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
 					<div class="single_sticker">
 						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-						<p>Мой любимый сайт</p>
+						<p>Лучший сайт на свете, лучший сайт на свете, лучший сайт на свете, лучший сайт на свете,лучший сайт на свете,лучший сайт на свете,лучший сайт на свете,лучший сайт на свете,лучший сайт на свете,лучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на светелучший сайт на свете</p>
 					</div>
 				</div><!-- END COL -->	
 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
@@ -178,7 +175,7 @@
                 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
 					<div class="single_sticker">
 						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-						<p>Класс</p>
+						<p>Балдеж</p>
 					</div>
 				</div><!-- END COL -->			
 				<div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
@@ -201,8 +198,8 @@
 				</div><!-- END COL -->						
 			</div><!-- END ROW -->
 			<div class="text-center" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-					<a href="reviews.html" class="btn_two">Показать больше</a>
-                    <a href="reviews.html" class="btn_one">Оставить отзыв</a>
+					<a href="javascript:void(0);" class="btn_two">Показать больше</a>
+                    <a href="javascript:void(0);" class="btn_one" id="open-review-modal">Оставить отзыв</a>
 				</div>
 		</div><!--- END CONTAINER -->
 		</section>
@@ -234,7 +231,7 @@
 					<div class="single_footer">
 						<h4>Игры</h4>
 						<ul>
-							<li><a href="#">Русский язык</a></li>
+							<li><a href="games_russian.html">Русский язык</a></li>
 							<li><a href="#">Литература</a></li>
 						</ul>
 					</div>
@@ -243,10 +240,10 @@
 					<div class="single_footer">
 						<h4>О проекте</h4>
 						<ul>
-							<li><a href="#">Миссия</a></li>
-							<li><a href="#">О преподавателе</a></li>
-							<li><a href="#">Как это работает</a></li>
-                            <li><a href="#">Отзывы</a></li>						
+							<li><a href="mission.html">Миссия</a></li>
+							<li><a href="about_teacher.html">О преподавателе</a></li>
+							<li><a href="howitworks.html">Как это работает</a></li>
+							<li><a href="reviews.html">Отзывы</a></li>						
 						</ul>
 					</div>
 				</div>

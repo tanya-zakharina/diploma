@@ -712,6 +712,7 @@ font-family: "Inter", sans-serif;
     width: 320px;
     height: auto;
     object-fit: contain;
+    transition: opacity 0.3s ease;
 }
 
 .single_ts h4 {
@@ -953,7 +954,7 @@ font-family: "Inter", sans-serif;
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 375px) {
     .games_area .col-lg-3 {
         width: 300px !important;
         max-width: 300px !important;
@@ -983,6 +984,7 @@ font-family: "Inter", sans-serif;
     position: relative;
     overflow: hidden;
     width: 100%;
+    
 }
 
 .game-cards .game-content img {
@@ -1312,9 +1314,192 @@ font-family: Inter, sans-serif;
     position: relative;
     display: inline-block;
     z-index: 1;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 100%;
+    line-height: 1.1;
 }
 /*
 * ----------------------------------------------------------------------------------------
 * END ABOUT TEACHER
 * ----------------------------------------------------------------------------------------
 */
+
+.load-more-block .single_sticker,
+.load-more-block .game-cards,
+.load-more-block .any-card {
+    display: block;
+}
+
+.load-more-block .single_sticker.hidden,
+.load-more-block .game-cards.hidden,
+.load-more-block .any-card.hidden {
+    display: none;
+}
+
+
+.text-truncate-block p {
+    overflow: hidden;
+    margin-top: 25px;
+    font-family: "Inter", sans-serif;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1A489E;
+    font-size: 16px!important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Универсальное модальное окно */
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.247);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.custom-modal.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.custom-modal .modal-content {
+    background: #E2FFDF;
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.custom-modal .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1A489E;
+}
+
+.custom-modal .modal-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Модальное окно для отзыва */
+.review-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.review-modal.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.review-modal .modal-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+}
+
+.review-modal .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #1A489E;
+}
+
+.review-modal h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rating-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    direction: rtl;
+}
+
+.rating-input .star {
+    font-size: 40px;
+    cursor: pointer;
+    color: #ccc;
+    transition: 0.3s;
+}
+
+.rating-input .star:hover,
+.rating-input .star.active {
+    color: #FFD700;
+}
+
+.review-modal textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+.review-modal input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.review-modal .btn_one {
+    width: 100%;
+    text-align: center;
+}
+
+.rating-input .fa-star {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.rating-input .fa-star.active {
+    opacity: 1;
+}
