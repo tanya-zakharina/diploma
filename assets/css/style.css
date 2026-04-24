@@ -52,12 +52,12 @@ h6 {
 a {
 font-family: "Inter", sans-serif;
 text-decoration: none;
-color: #0b104a;
+color: #1A489E;
 -webkit-transition: all 0.2s ease 0s;
 transition: all 0.2s ease 0s;
 }
 a:hover {
-    color: #fff;
+    color: #2258BE;
     text-decoration: none;
 }
 a:focus {
@@ -253,7 +253,8 @@ margin-top: 0px;
 	display: block;
 }
 .site-logo img{
-	max-width: 100%;
+	max-width: 50px;
+    padding-left: 8px;
 }
 #navigation {
     position: fixed;
@@ -1502,4 +1503,14 @@ font-family: Inter, sans-serif;
 
 .rating-input .fa-star.active {
     opacity: 1;
+}
+
+.legal{
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+
+.legal h4, .legal p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
