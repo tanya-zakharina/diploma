@@ -1077,6 +1077,62 @@ font-family: "Inter", sans-serif;
     margin-top: 300px!important;
     margin-bottom: 300px!important;
 }
+
+.playnow-btn-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.animated-bg-img {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 650px;
+    height: auto;
+    animation: pulse 2s ease-in-out infinite;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+
+.playnow-btn-wrapper .btn_one {
+    position: relative;
+    z-index: 1;
+}
+
+/* Адаптив для планшетов */
+@media only screen and (max-width: 768px) {
+    .animated-bg-img {
+        width: 400px;
+    }
+}
+
+/* Адаптив для телефонов */
+@media only screen and (max-width: 425px) {
+    .animated-bg-img {
+        width: 370px;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media only screen and (max-width: 375px) {
+    .animated-bg-img {
+        display: none;
+    }
+}
 /*
 * ----------------------------------------------------------------------------------------
 * END PLAY NOW
