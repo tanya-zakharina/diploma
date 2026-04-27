@@ -170,8 +170,8 @@ margin-top: 0px;
 	border-radius: 50px;
 }
 .btn_two:hover{
-	background: #D4FFD0;
-	color: black;
+	background: #1A489E;
+	color: white;
 }
 
 /*END BTN*/
@@ -1295,7 +1295,7 @@ font-family: Inter, sans-serif;
 
 .img10 { top: 1%; right: 25%; transform: translateY(0); }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1600px) {
     .img1 { top: 15%; left: 15%; }
     .img2 { top: 3%; right: 25%; }
     .img3 { bottom: 15%; right: 15%; }
