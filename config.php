@@ -1,4 +1,7 @@
 <?php
+
+const DEBUG = true;
+
 $host = 'localhost';
 $dbname = 'zaxaritk_diploma';
 $username = 'zaxaritk_diploma';
