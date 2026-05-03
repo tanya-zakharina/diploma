@@ -42,67 +42,13 @@
     <body data-spy="scroll" data-offset="80">
 
 		<!-- START NAVBAR -->  
-		<div id="navigation" class="navbar-light bg-faded site-navigation">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-20 align-self-center">
-						<div class="site-logo">
-							<a href="index.html"><img src="assets/img/logo.svg" alt=""></a>          				
-						</div>
-					</div><!--- END Col -->
-					
-					<div class="col-60 d-flex">
-						<nav id="main-menu">
-							<ul>
-								<li class="menu-item-has-children"><a href="games_russian.html">Игры</a>
-									<ul>										
-										<li><a href="games_russian.html">Русский язык</a></li>
-										<li><a href="games_literature.html">Литература</a></li>			
-									</ul>
-								</li>			  				  
-								<li class="menu-item-has-children"><a href="mission.html">О проекте</a>
-									<ul>
-										<li><a href="mission.html">Миссия</a></li>									
-										<li><a href="about_teacher.html">О преподавателе</a></li>
-										<li><a href="howitworks.html">Как это работает</a></li>
-                                        <li><a href="reviews.html">Отзывы</a></li>	
-									</ul>
-								</li>													  
-								<li><a href="#footer">Контакты</a></li>
-							</ul>
-						</nav>
-					</div><!--- END Col -->
-					
-					<div class="col-20 d-none d-xl-block text-end align-self-center">
-						<a href="games_russian.html" class="btn_one">Начать играть</a>
-					</div><!--- END Col -->
-					
-					<ul class="mobile_menu">						
-						<li><a href="#">Игры</a>
-							<ul class="sub-menu">										
-								<li><a href="games_russian.html">Русский язык</a></li>
-								<li><a href="games_literature.html">Литература</a></li>						
-							</ul>
-						</li>						
-						<li><a href="#">О проекте</a>
-							<ul class="sub-menu">
-								<li><a href="mission.html">Миссия</a></li>										
-								<li><a href="about_teacher.html">О преподавателе</a></li>
-								<li><a href="howitworks.html">Как это работает</a></li>	
-                                <li><a href="reviews.html">Отзывы</a></li>									
-							</ul>
-						</li>						
-						<li><a href="#footer">Контакты</a></li>
-					</ul>			
-				</div><!--- END ROW -->
-			</div><!--- END CONTAINER -->
-		</div> 	  
+		<?php include 'includes/nav.php'; ?>
 		<!-- END NAVBAR -->	
 
         <div class="breadcrumbs">
             <div class="container">
                 <ul>
-                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="index.php">Главная</a></li>
                     <li><span class="separator">/</span></li>
                     <li><span class="current">Как это работает</span></li>
                 </ul>
@@ -113,10 +59,10 @@
         <section style="background-size:cover; background-position: center center;">
             <div class="container">
                 <div class="filter-buttons text-center">
-                    <a href="mission.html" class="filter-item">Миссия</a>
-                    <a href="howitworks.html" class="filter-item active">Как это работает</a>
-                    <a href="about_teacher.html" class="filter-item">О преподавателе</a>
-                    <a href="reviews.html" class="filter-item">Отзывы</a>
+                    <a href="mission.php" class="filter-item">Миссия</a>
+                    <a href="howitworks.php" class="filter-item active">Как это работает</a>
+                    <a href="about_teacher.php" class="filter-item">О преподавателе</a>
+                    <a href="reviews.php" class="filter-item">Отзывы</a>
                 </div>
 				<h4 class="text-center" style="color: red">В разработке...</h4>
             </div>
@@ -148,68 +94,7 @@
 	<!-- END TEACHERS AND STUDENTS -->
 
 		<!-- START FOOTER -->
-		<div id="footer" class="footer section-padding">
-		<div class="footer section-padding">
-			<div class="container">				
-				<div class="row">						
-				<div class="col-lg-3 col-sm-6 col-xs-12 me-auto">
-					<div class="single_footer">    
-						<p>Ответим на все ваши вопросы</p>
-						<div class="social_profile">
-							<a href="reviews.html" class="btn_two">Написать письмо</a>
-						</div>
-					</div>			
-				</div><!--- END COL -->	
-				<div class="col-lg-2 col-sm-6 col-xs-12">
-					<div class="single_footer">
-						<h4>Контакты</h4>
-						<ul>
-							<li><a href="tel:+79612370885" onclick="copyPhone(event)">+7 961 237 08 85</a></li>
-							<li><a href="mailto:zaxarina04@bk.ru">zaxarina04@bk.ru</a></li>					
-						</ul>
-					</div>
-				</div>					
-				<div class="col-lg-2 col-sm-6 col-xs-12">
-					<div class="single_footer">
-						<h4>Игры</h4>
-						<ul>
-							<li><a href="games_russian.html">Русский язык</a></li>
-							<li><a href="#">Литература</a></li>
-						</ul>
-					</div>
-				</div><!--- END COL -->	
-				<div class="col-lg-2 col-sm-6 col-xs-12">
-					<div class="single_footer">
-						<h4>О проекте</h4>
-						<ul>
-							<li><a href="mission.html">Миссия</a></li>
-							<li><a href="about_teacher.html">О преподавателе</a></li>
-							<li><a href="howitworks.html">Как это работает</a></li>
-							<li><a href="reviews.html">Отзывы</a></li>						
-						</ul>
-					</div>
-				</div>
-				<!--- END COL -->
-			</div><!--- END ROW -->	
-			<div class="row">
-				<div class="documents">
-					<a href="licence.html">Пользовательское соглашение</a>
-					<a href="privacy.html">Политика в отношении обработки персональных данных</a>
-					<a href="cookie.html">Условия использования файлов cookie</a>
-				</div>
-			</div>
-
-			</div><!--- END CONTAINER -->
-		</div>
-		</div>
-		<!-- END FOOTER -->	
-
-		<!-- START FOOTER COPYRIGHT -->	
-		<div class="foot_copy">
-			<div class="footer_copyright">
-				<p>&copy; 2026. Разработка сайта — Захарьина Татьяна</a></p>
-			</div>	
-		</div>
+		<?php include 'includes/footer.php'; ?>
 		<!-- END FOOTER COPYRIGHT -->	
 	
 	<!-- Latest jQuery -->

@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Vasek Italic_0';
-    src: url('../fonts/Vasek Italic.woff2') format('woff2'),
-         url('../fonts/Vasek Italic.woff') format('woff'),
+    src: url('../fonts/Vasek-Italic.woff2') format('woff2'),
+         url('../fonts/Vasek-Italic.woff') format('woff'),
          url('../fonts/Vasek Italic_0.ttf') format('truetype');
 }
 
@@ -173,7 +173,12 @@ margin-top: 0px;
 	background: #1A489E;
 	color: white;
 }
-
+#navigation .col-20:last-child {
+    display: flex !important;
+    justify-content: flex-end;
+    gap: 10px;
+    white-space: nowrap;
+}
 /*END BTN*/
 
 /*START CRUMBS*/
@@ -241,7 +246,7 @@ margin-top: 0px;
 .col-60{
 	width: 60%;
 	display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .col-20{
 	width: 20%;
@@ -1569,4 +1574,61 @@ font-family: Inter, sans-serif;
 .legal h4, .legal p{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+
+/* START ACCOUNT */
+
+.account{padding-top:60px; padding-bottom:200px;position: relative;margin-bottom: 100px;}
+
+.name-title {
+    color: #1A489E;
+    font-size: 96px;
+    font-family: "Vasek Italic_0", sans-serif;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.name-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    top: 10px;
+    background: #D4FFD0;
+    z-index: -1;
+}
+
+/* END ACCOUNT */
+
+
+.formpage{padding-top:200px; padding-bottom:200px;position: relative;margin-bottom: 100px;}
+
+.form-control {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #1A489E;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+    outline: none;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    border-color: #2258BE;
+}
+
+label {
+    font-family: "Inter", sans-serif !important;
+    margin-bottom: 10px !important;
+    display: block !important;
+}
+
+form {
+    margin-top: 30px;
 }
