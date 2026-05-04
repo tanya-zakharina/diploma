@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Проверка перед отправкой
             console.log('Отправка данных:', { name, rating: selectedRating, text: text.substring(0, 50) });
 
-            fetch('save_review.php', {
+            fetch('/save_review.php', {
                 method: 'POST',
                 body: formData
             })
