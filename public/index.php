@@ -16,7 +16,7 @@
 
 
 <!-- START ADVANTAGES -->
-<section class="advantages section-padding" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center;">
+<section class="advantages section-padding">
 <div class="container stickers">
     <div class="row">
         <div class="col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
@@ -50,7 +50,7 @@
 
 
 <!-- START TEACHERS AND STUDENTS -->
-<section class="teachersstudents section-padding" style="background-image: url(assets/img/bg/section-2.jpg);  background-size:cover; background-position: center center;">
+<section class="teachersstudents section-padding">
 <div class="container">
     <div class="section-title text-center">
         <h2>Подходит для&nbspучеников и&nbspучителей</h2>
@@ -83,7 +83,7 @@
 <!-- END TEACHERS AND STUDENTS -->
 
 <!-- START HOW IT WORKS -->
-<section class="howitworks section-padding" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center;">
+<section class="howitworks section-padding">
 <div class="container">
                 <div class="section-title text-center">
         <h2>Начать просто</h2>
@@ -233,7 +233,7 @@
 <!-- END GAMES -->
 
 <!-- START REVIEWS -->
-<section class="reviews section-padding" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center;">
+<section class="reviews section-padding">
 <div class="container stickers">
     <div class="section-title text-center">
             <h2>Нас рекомендуют</h2>
@@ -272,7 +272,7 @@
 <!-- END REVIEWS -->
 
 <!-- START PLAY NOW -->
-<section class="playnow section-padding" style="background-image: url(assets/img/bg/section-2.jpg);  background-size:cover; background-position: center center;">
+<section class="playnow section-padding">
     <div class="container">
         <div class="section-title text-center">
             <h2>Начни играть прямо сейчас!</h2>

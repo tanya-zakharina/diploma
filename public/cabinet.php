@@ -34,7 +34,7 @@ $gameNames = [
 
 // Топ-10 по игре
 $stmt3 = $pdo->prepare("
-    SELECT u.name, MAX(r.score) as best_score 
+    SELECT u.name, MAX(r.score) as best_score
     FROM results r
     JOIN users u ON r.user_id = u.id
     WHERE r.game_name = ?
@@ -48,8 +48,8 @@ $leaders = $stmt3->fetchAll(PDO::FETCH_ASSOC);
 // Лучший результат текущего пользователя
 $myBest = null;
 $stmt4 = $pdo->prepare("
-    SELECT MAX(score) as my_best 
-    FROM results 
+    SELECT MAX(score) as my_best
+    FROM results
     WHERE user_id = ? AND game_name = ?
 ");
 $stmt4->execute([$_SESSION['user_id'], $game]);
@@ -160,7 +160,7 @@ $myBest = $stmt4->fetch(PDO::FETCH_ASSOC);
     </div>
 </div>
 
-<section class="account section-padding wow fadeInUp" style="background-image: url(assets/img/bg/section-2.jpg); background-size:cover; background-position: center center;">
+<section class="account section-padding wow fadeInUp">
     <div class="container">
         <div class="section-title text-center">
             <h2><span class="title-teacher">Привет, <?= htmlspecialchars($user['name']) ?>!</span></h2>

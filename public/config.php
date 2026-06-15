@@ -3,9 +3,9 @@
 const DEBUG = true;
 
 $host = 'localhost';
-$dbname = 'diploma';
-$username = 'root';
-$password = '';
+$dbname = 'zaxaritk_diploma';
+$username = 'zaxaritk_diploma';
+$password = '4MOE%*uH&v1*';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);

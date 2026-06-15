@@ -13,13 +13,8 @@
         <title>Русский язык и литература</title>
         <!-- Latest Bootstrap min CSS -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-        <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.all.min.css">
         <!--- owl carousel Css-->
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.css">
         <link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
@@ -31,12 +26,7 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <!-- Style CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <link rel="icon" type="image/vnd.microsoft.icon" sizes="48x48" href="/favicon.ico" class="">
     </head>
 
     <body data-spy="scroll" data-offset="80">

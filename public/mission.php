@@ -58,7 +58,7 @@
     </div><!--- END CONTAINER -->
 </section>
 
-<section class="advantages section-padding" style="background-image: url(assets/img/bg/shape-1.png);  background-size:cover; background-position: center center; position: relative;">
+<section class="advantages section-padding" style="position: relative;">
 <div class="container stickers">
     <div class="section-title text-center">
                 <h2>Почему это эффективно?</h2>

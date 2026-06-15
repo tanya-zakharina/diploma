@@ -30,7 +30,7 @@ $total = $pdo->query("SELECT COUNT(*) FROM reviews")->fetchColumn();
     </div>
 </section>
 
-<section class="reviews section-padding home-reviews load-more-block text-truncate-block" style="background-image: url(assets/img/bg/shape-1.png); background-size:cover; background-position: center center;">
+<section class="reviews section-padding home-reviews load-more-block text-truncate-block">
     <div class="container stickers">
         <div class="row" id="reviews-container">
             <?php if (empty($reviews)): ?>

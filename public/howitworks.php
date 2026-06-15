@@ -24,7 +24,7 @@
 </section>
 
     <!-- START TEACHERS AND STUDENTS -->
-<section class="teachersstudents section-padding" style="background-image: url(assets/img/bg/section-2.jpg);  background-size:cover; background-position: center center;">
+<section class="teachersstudents section-padding">
 <div class="container">
     <div class="row">
             <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp">
