@@ -1,11 +1,27 @@
 <?php
 
-const DEBUG = true;
+const DEBUG = false;
 
-$host = 'localhost';
-$dbname = 'zaxaritk_diploma';
-$username = 'zaxaritk_diploma';
-$password = '4MOE%*uH&v1*';
+if (DEBUG) {
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+}
+
+if (file_exists(__DIR__ . '/../.env')) {
+    $env = parse_ini_file(__DIR__ . '/../.env');
+    $host     = $env['DB_HOST'];
+    $dbname   = $env['DB_NAME'];
+    $username = $env['DB_USER'];
+    $password = $env['DB_PASS'];
+} else {
+    $host     = 'localhost';
+    $dbname   = 'diploma';
+    $username = 'root';
+    $password = '';
+}
+
+echo $password;
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
