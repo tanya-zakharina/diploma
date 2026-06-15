@@ -19,32 +19,47 @@
             <a href="about_teacher.php" class="filter-item">О преподавателе</a>
             <a href="reviews.php" class="filter-item">Отзывы</a>
         </div>
-        <h4 class="text-center" style="color: red">В разработке...</h4>
     </div>
 </section>
 
-    <!-- START TEACHERS AND STUDENTS -->
-<section class="teachersstudents section-padding">
-<div class="container">
-    <div class="row">
-            <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp">
-                <div class="single_ts student-card" data-animate="student">
-                    <div class="single_ts_img">
-                        <img src="assets/img/student1.svg" class="img-fluid" alt="student-image" />
-                    </div>
-                    <h4>Ученикам</h4>
-                </div>
-            </div><!-- END COL -->
-            <div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp">
-                <div class="single_ts teacher-card" data-animate="teacher">
-                    <div class="single_ts_img">
-                        <img src="assets/img/teacher1.svg" class="img-fluid" alt="teacher-image" />
-                    </div>
-                    <h4>Учителям</h4>
-                </div>
-            </div><!-- END COL -->
-        </div><!--- END ROW -->
-</div><!--- END CONTAINER -->
+<section class="missionpage wow fadeInUp" style="background-size:cover; background-position: center center;">
+    <div class="container">
+        <div class="section-title text-center">
+                <h2>Выбери игру</h2>
+                <p>Достаточно выбрать предмет и карточку игры</p>
+                <img src="assets/img/howitworks/pick.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+        </div>
+    </div><!--- END CONTAINER -->
+</section>
+
+<section class="missionpage wow fadeInUp" style="background-size:cover; background-position: center center;">
+    <div class="container">
+        <div class="section-title text-center">
+                <h2>Пройди задание</h2>
+                <p>Выбери нужную букву, перетащи фразу, свайпай влево или вправо - различные интерактивные, но интуитивно понятные упражнения.</p>
+                <img src="assets/img/howitworks/gameplay.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+        </div>
+    </div><!--- END CONTAINER -->
+</section>
+
+        <section class="missionpage wow fadeInUp" style="background-size:cover; background-position: center center;">
+    <div class="container">
+        <div class="section-title text-center">
+                <h2>Получи результат</h2>
+                <p>Сразу после прохождения, найди свои ответы и узнай свои ошибки</p>
+                <img src="assets/img/howitworks/result.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+        </div>
+    </div><!--- END CONTAINER -->
+</section>
+
+        <section class="missionpage wow fadeInUp" style="background-size:cover; background-position: center center;">
+    <div class="container">
+        <div class="section-title text-center">
+                <h2>Отслеживай прогресс</h2>
+                <p>В личном кабинете, можешь найти суммарные баллы за все игры, свой уровень, количество пройденных игр и таблицу лидеров</p>
+                <img src="assets/img/howitworks/progress.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+        </div>
+    </div><!--- END CONTAINER -->
 </section>
 <!-- END TEACHERS AND STUDENTS -->
 
