@@ -21,8 +21,6 @@ if (file_exists(__DIR__ . '/../.env')) {
     $password = '';
 }
 
-echo $password;
-
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
