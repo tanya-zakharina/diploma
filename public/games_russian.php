@@ -17,7 +17,6 @@
             <a href="games_russian.php" class="filter-item active">Русский язык</a>
             <a href="games_literature.php" class="filter-item">Литература</a>
         </div>
-        <h4 class="text-center" style="color: red; margin-bottom: 40px;">В разработке...</h4>
     </div>
 </section>
 
@@ -25,7 +24,6 @@
 <section class="games_area section-padding">
     <div class="container">
         <div class="row games-container">
-            <!-- RUSSIAN -->
             <div class="col-lg-3 col-sm-6 col-xs-12 game-item russian" data-wow-duration="1s" data-wow-delay="0.1s">
                 <div class="game-cards">
                     <div class="game-info">
@@ -33,10 +31,10 @@
                         <span>Выбери ударный гласный</span>
                     </div>
                     <div class="game-content">
-                        <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                        <img src="assets/img/accent_pic.jpg" alt="">
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn_two">Играть</a>
+                        <a href="accent_game.php" class="btn_two">Играть</a>
                     </div>
                 </div>
             </div>
@@ -47,10 +45,10 @@
                         <span>Определи падеж существительного</span>
                     </div>
                     <div class="game-content">
-                        <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                        <a href="#"><img src="assets/img/cases_pic.jpg" alt=""></a>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn_two">Играть</a>
+                        <a href="cases_game.php" class="btn_two">Играть</a>
                     </div>
                 </div>
             </div>
@@ -61,10 +59,10 @@
                         <span>Определи спряжение глагола</span>
                     </div>
                     <div class="game-content">
-                        <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                        <img src="assets/img/conj_pic.jpg" alt="">
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn_two">Играть</a>
+                        <a href="conjugations_game.php" class="btn_two">Играть</a>
                     </div>
                 </div>
             </div>
