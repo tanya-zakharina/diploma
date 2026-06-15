@@ -60,7 +60,7 @@
                 </li>						
                 <li><a href="#footer">Контакты</a></li>
                 <?php if (isset($_SESSION['user_id'])): ?>
-                    <li><a href="cabinet.php">👤 <?= htmlspecialchars($_SESSION['user_name']) ?></a></li>
+                    <li><a href="cabinet.php"><i class="fas fa-user"></i> <?= htmlspecialchars($_SESSION['user_name']) ?></a></li>
                     <li><a href="logout.php">Выйти</a></li>
                 <?php else: ?>
                     <li><a href="login.php">Войти</a></li>

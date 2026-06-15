@@ -1,17 +1,11 @@
 <?php
 
-const DEBUG = false;
-
-if (DEBUG) {
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-}
+const DEBUG = true;
 
 $host = 'localhost';
-$dbname = 'zaxaritk_diploma';
-$username = 'zaxaritk_diploma';
-$password = '4MOE%*uH&v1*';
+$dbname = 'diploma';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);

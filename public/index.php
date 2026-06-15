@@ -144,10 +144,10 @@
                 <span>Выбери ударный гласный</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/accent_pic.jpg" alt="">
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="accent_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
@@ -158,10 +158,10 @@
                 <span>Определи падеж существительного</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/cases_pic.jpg" alt="">
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="cases_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
@@ -172,10 +172,10 @@
                 <span>Определи спряжение глагола</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/conj_pic.jpg" alt=""></a>
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="conjugations_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
@@ -184,14 +184,14 @@
     <div class="col-lg-3 col-sm-6 col-xs-12 game-item literature" data-wow-duration="1s" data-wow-delay="0.1s" style="display: none;">
         <div class="game-cards">
             <div class="game-info">
-                <h1><span class="game-title">Герои</span></h1>
-                <span>Угадай персонажа по описанию</span>
+                <h1><span class="game-title">Хронология</span></h1>
+                <span>Расставь события по порядку</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/chronology_pic.jpg" alt="">
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="chronology_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
@@ -199,13 +199,13 @@
         <div class="game-cards">
             <div class="game-info">
                 <h1><span class="game-title">Цитаты</span></h1>
-                <span>Из какого произведения фраза?</span>
+                <span>Сопоставь цитату и героя</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/phrases_pic.jpg" alt="">
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="phrases_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
@@ -216,16 +216,16 @@
                 <span>Определи жанр произведения</span>
             </div>
             <div class="game-content">
-                <a href="#"><img src="assets/img/team/team1.jpg" alt=""></a>
+                <img src="assets/img/genres_pic.jpg" alt="">
             </div>
             <div class="text-center">
-                <a href="#" class="btn_two">Играть</a>
+                <a href="genres_game.php" class="btn_two">Играть</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="text-center">
+<div class="text-center" style="margin-top:60px;">
     <a href="games_russian.php" class="btn_one">Все игры</a>
 </div>
 </div>
