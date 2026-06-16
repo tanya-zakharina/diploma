@@ -27,7 +27,7 @@
         <div class="section-title text-center">
                 <h2>Выбери игру</h2>
                 <p>Достаточно выбрать предмет и карточку игры</p>
-                <img src="assets/img/howitworks/pick.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+                <img src="assets/img/howitworks/pick.gif" alt="" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
         </div>
     </div><!--- END CONTAINER -->
 </section>
@@ -37,7 +37,7 @@
         <div class="section-title text-center">
                 <h2>Пройди задание</h2>
                 <p>Выбери нужную букву, перетащи фразу, свайпай влево или вправо - различные интерактивные, но интуитивно понятные упражнения.</p>
-                <img src="assets/img/howitworks/gameplay.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+                <img src="assets/img/howitworks/gameplay.gif" alt="" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
         </div>
     </div><!--- END CONTAINER -->
 </section>
@@ -47,7 +47,7 @@
         <div class="section-title text-center">
                 <h2>Получи результат</h2>
                 <p>Сразу после прохождения, найди свои ответы и узнай свои ошибки</p>
-                <img src="assets/img/howitworks/result.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+                <img src="assets/img/howitworks/result.gif" alt="" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
         </div>
     </div><!--- END CONTAINER -->
 </section>
@@ -57,7 +57,7 @@
         <div class="section-title text-center">
                 <h2>Отслеживай прогресс</h2>
                 <p>В личном кабинете, можешь найти суммарные баллы за все игры, свой уровень, количество пройденных игр и таблицу лидеров</p>
-                <img src="assets/img/howitworks/progress.gif" alt="" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
+                <img src="assets/img/howitworks/progress.gif" alt="" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 50px auto 0; border-radius: 20px;">
         </div>
     </div><!--- END CONTAINER -->
 </section>
